@@ -1,4 +1,5 @@
 div {
+  background-image:url("Ayodeji.JPG");
   background: #CCC;
   text-align: center;
 }
@@ -15,7 +16,7 @@ h1 {
 }
 
 h2 {
-  color: skyblue;
+  color: cyan;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   text-align: left;
