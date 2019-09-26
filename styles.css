@@ -1,19 +1,13 @@
-body {
-  background-color: white;
-}
-
-div {
-  background-color: black;
-  background: #CCC;
-  text-align: center;
-}
 
 .container{
   background-color: black;
   background: #CCC;
   text-align: center;
-  width: 60%;
+  width:60%;
+  margin: auto; 
+
 }
+
 .program {
   background-color: black;
   background: #CCC;
@@ -23,6 +17,19 @@ div {
   font-family: "Times New Roman", Times, serif;
   font-size: 38px;
   text-align: center;
+}
+.experience h1{
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.basicinfo h1{
+  color:black;
+}
+.basicinfo a{
+  color:rgb(0,119, 181);
 }
 
 h2 {
@@ -46,3 +53,16 @@ ul {
   text-align: left;
 
 }
+
+
+/*body {
+  background-color: white;
+  width: 60%;
+}
+
+div {
+  background-color: black;
+  background: #CCC;
+  text-align: center;
+  width: 60%;
+}*/
