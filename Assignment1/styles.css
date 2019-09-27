@@ -6,6 +6,8 @@ body {
   text-align: center;
   width:60%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 
 }
 .container ul {
