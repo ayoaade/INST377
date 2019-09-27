@@ -1,68 +1,42 @@
-
+body {
+  background-image: url("my.jpg")
+}
 .container{
-  background-color: black;
-  background: #CCC;
+  background-color: #202020;
   text-align: center;
   width:60%;
-  margin: auto; 
+  margin: auto;
 
 }
-
-.program {
-  background-color: black;
-  background: #CCC;
-}
-.experience {
-  color: rgb(98, 0, 255);
+.container ul {
   font-family: "Times New Roman", Times, serif;
-  font-size: 38px;
-  text-align: center;
+  font-size: 17px;
+  text-align: left;
+  color: white
 }
-.experience h1{
-  color: rgb(0, 0, 0);
+.container h1{
+  color: white;
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
-  text-align: center;
 }
-
-.basicinfo h1{
-  color:black;
+.basicinfo{
+  color: white;
 }
-.basicinfo a{
-  color:rgb(0,119, 181);
+.program {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-
-h2 {
-  color:black;
+.program img {
+  border-radius: 8px;
+  width: 150px;
+}
+.courses ul {
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 16px;
   text-align: left;
 }
-
-
-h3 {
-  color: cyan;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  text-align: right;
-}
-
-ul {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  text-align: left;
-
-}
-
-
-/*body {
-  background-color: white;
-  width: 60%;
-}
-
-div {
-  background-color: black;
-  background: #CCC;
-  text-align: center;
-  width: 60%;
-}*/
