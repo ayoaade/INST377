@@ -1,28 +1,27 @@
 body {
-  background-image: url("my.jpg")
+  background-image: url("my.jpg");
 }
-.container{
+.container {
   background-color: #202020;
   text-align: center;
-  width:60%;
+  width: 60%;
   margin: auto;
   display: flex;
   flex-direction: column;
-
 }
 .container ul {
   font-family: "Times New Roman", Times, serif;
   font-size: 17px;
   text-align: left;
-  color: white
+  color: white;
 }
-.container h1{
+.container h1 {
   color: white;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
 }
-.basicinfo{
+.basicinfo {
   color: white;
 }
 .program {
